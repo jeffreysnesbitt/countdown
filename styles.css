@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#countdown div {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+#countdown div:before {
+    content: attr(id);
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 10px;
+}
