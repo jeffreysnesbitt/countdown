@@ -8,7 +8,7 @@ function startCountdown() {
 
     // Get the user's date input and append time
     var userInputDate = document.getElementById('date-input').value;
-    var countDownDate = new Date(userInputDate + "T15:00:00").getTime();
+    var countDownDate = new Date(userInputDate + "T00:00:00").getTime();
 
     // Start the countdown
     countdownFunction = setInterval(function() {
